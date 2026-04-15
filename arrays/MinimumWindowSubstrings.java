@@ -1,3 +1,18 @@
+/*
+ * Question: Minimum Window Substring
+ *
+ * Given two strings m and n, find the minimum window in m which will contain
+ * all the characters of n (including duplicates). If no such window exists,
+ * return an empty string.
+ *
+ * Example:
+ *   Input:  m = "ADOBECODEBANC", n = "ABC"
+ *   Output: "BANC"
+ *
+ * Constraints:
+ *   - If there is no such window in m that covers all characters of n, return "".
+ *   - If there are multiple minimum-length windows, return any one of them.
+ */
 class MinimumWindowSubstrings{
 
     public static String minimumWindow(String m, String n){
