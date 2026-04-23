@@ -68,4 +68,30 @@ class MinimumWindowSubstrings{
         return answer.toString();
     }
 
+
+    public int minimumWindowV1(String m, String n){
+        int[] nLetters = new int[128];
+        int minLength = Integer.MAX_VALUE;
+
+        for(char ch: n.toCharArray()){
+            nLetters[ch]++;
+        }
+        int left = 0, right = 0, required = n.length();
+        while(right < m.length()){
+            if(nLetters[m.charAt(right)]>0){
+                required--;
+            }
+            nLetters[m.charAt(right)]--;
+            while(required == 0){
+                minLength = Math.min(minLength, right-left+1);
+                nLetters[m.charAt(left)]++;
+                if(nLetters[m.charAt(left)]>0) required++;
+                left++;
+                
+            }
+            right++;
+        }
+        return minLength;
+    }
+
 }
