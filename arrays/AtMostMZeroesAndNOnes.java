@@ -1,4 +1,3 @@
-
 /**
 Code
 Testcase
@@ -46,15 +45,13 @@ class AtMostMZeroesAndNOnes {
         dp[0][0] = 0;
         for(int[] num: numsArray){
             int zero = num[0];
-            int ones = num[0];
+            int ones = num[1];
             for(i = m ;i>=zero;i--){
                 for(j = n ;j>=ones;j--){
-
-            dp[i][j] = Math.max(dp[i][j] ,dp[i-zero][j-ones]+1);
+                    dp[i][j] = Math.max(dp[i][j] ,dp[i-zero][j-ones]+1);
+                }
             }
         }
-        }
-
         return dp[m][n];
     }
 
