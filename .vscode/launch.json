@@ -5,9 +5,32 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "jdk",
+            "type": "java",
+            "name": "BusRoutes",
             "request": "launch",
-            "name": "Launch Java App"
+            "mainClass": "BusRoutes",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "TaskScheduler",
+            "request": "launch",
+            "mainClass": "TaskScheduler",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "PathRouterWithWildcards",
+            "request": "launch",
+            "mainClass": "PathRouterWithWildcards",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": ""
         }
     ]
 }
