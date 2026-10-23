@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReverseNodesInKGroup",
+            "request": "launch",
+            "mainClass": "ReverseNodesInKGroup",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "BusRoutes",
             "request": "launch",
             "mainClass": "BusRoutes",
