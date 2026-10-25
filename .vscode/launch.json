@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PathRouter",
+            "request": "launch",
+            "mainClass": "PathRouter",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "CommodityPriceTracker",
+            "request": "launch",
+            "mainClass": "CommodityPriceTracker",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "AllOne",
+            "request": "launch",
+            "mainClass": "AllOne",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "ReverseNodesInKGroup",
             "request": "launch",
             "mainClass": "ReverseNodesInKGroup",
