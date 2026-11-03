@@ -33,6 +33,7 @@ public class SubarraySum {
             }
             
             sumToIndex.put(newSum,sumToIndex.getOrDefault(newSum,0)+1);
+            prevSum = newSum;
         }
         System.out.println("The sum count is "+count);
     }

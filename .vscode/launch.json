@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DailyTemperature",
+            "request": "launch",
+            "mainClass": "DailyTemperature",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "MergeKLists",
+            "request": "launch",
+            "mainClass": "MergeKLists",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "MinimumWindowSubstring",
+            "request": "launch",
+            "mainClass": "MinimumWindowSubstring",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "LRUCache",
+            "request": "launch",
+            "mainClass": "LRUCache",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "RateLimiting",
+            "request": "launch",
+            "mainClass": "RateLimiting",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "PathRouter",
             "request": "launch",
             "mainClass": "PathRouter",

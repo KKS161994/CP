@@ -23,5 +23,24 @@ class SortColors{
                 tempCount++;
             }
         }   
+        int[] counts = new int[3];
+        for(int num: buckets){
+            counts[num]++;
+        }
+
+        int temp = 0;
+
+        for(int freq = 0;freq<counts.length ; freq++){
+            if(counts[freq]==0) continue;
+            int tempFreq = counts[freq],tempCOunt = 0;
+            while(tempCOunt<tempFreq){
+                buckets[temp++] = freq;
+
+            }
+        }
+        
+
     }
 }
+
+// 

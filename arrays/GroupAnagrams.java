@@ -10,7 +10,7 @@ class GroupAnagrams {
             wordsMap.computeIfAbsent(currentWordKey, k -> new ArrayList<>())
                     .add(word);
         }
-        List<List<String>> result = new ArrayList<>(wordsMap.values());
+        List<List<String>> result = wordsMap.values();
         return result;
     }
 
